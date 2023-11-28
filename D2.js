@@ -30,11 +30,18 @@ if (num1 % 5 === 0) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-if (num1 === 8 || num2 === 8 || num1 + num2 === 8) {
+if (num1 === 8 || num2 === 8 || num1 + num2 === 8 || num1 - num2 === 8 || num2 - num1 === 8) {
 	if (num1 + num2 === 8) {
 		console.log('La somma è uguale a 8')
-	} else {
-		console.log('Uno o entrambi i numeri sono uguali a 8')
+	}
+	if (num1 - num2 === 8 || num2 - num1 === 8) {
+		console.log('La sottrazione è uguale a 8')
+	}
+	if (num1 === 8) {
+		console.log('Il numero 1 è uguale a 8')
+	}
+	if (num2 === 8) {
+		console.log('Il numero 2 è uguale a 8')
 	}
 }
 
