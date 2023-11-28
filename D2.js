@@ -145,10 +145,11 @@ if (value % 2 === 0) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+//non avevo capito la consegna
 function checkValue(val) {
-	if (val < 10) {
+	if (val < 5) {
 		console.log('Meno di 10')
-	} else if (val < 5) {
+	} else if (val < 10) {
 		console.log('Meno di 5')
 	} else {
 		console.log('Uguale a 10 o maggiore')
